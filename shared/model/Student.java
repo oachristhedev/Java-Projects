@@ -2,13 +2,13 @@ package shared.model;
 
 public class Student {
 
-    private String surname;
-    private String firstNames;
-    private String studentID;
-    private String courseName;
-    private char className;
-    private int level;
-    private String phoneNumber;
+    private final String surname;
+    private final String firstNames;
+    private final String studentID;
+    private final String courseName;
+    private final char className;
+    private final int level;
+    private final String phoneNumber;
 
     public Student(String surname, String firstNames, String studentID, String courseName, char className, int level, String phoneNumber) {
 
