@@ -2,7 +2,7 @@ package internal;
 
 import shared.model.Student;
 
-public class internalInput {
+public class InternalInput {
 
     public static void main(String[] args) {
 

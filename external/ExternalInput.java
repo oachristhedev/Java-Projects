@@ -1,7 +1,7 @@
 package external;
 
-import shared.model.Student;
 import java.util.Scanner;
+import shared.model.Student;
 
 public class ExternalInput {
 
@@ -9,26 +9,26 @@ public class ExternalInput {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Surname: ");
+        System.out.println("Surname: ");
         String surname = input.nextLine();
 
-        System.out.print("First Names: ");
+        System.out.println("First Names: ");
         String firstNames = input.nextLine();
 
-        System.out.print("Student ID: ");
+        System.out.println("Student ID: ");
         String studentId = input.nextLine();
 
-        System.out.print("Course Name: ");
+        System.out.println("Course Name: ");
         String courseName = input.nextLine();
 
-        System.out.print("Class: ");
+        System.out.println("Class: ");
         char className = input.nextLine().charAt(0);
 
-        System.out.print("Level: ");
+        System.out.println("Level: ");
         int level = input.nextInt();
         input.nextLine();
 
-        System.out.print("Phone Number: ");
+        System.out.println("Phone Number: ");
         String phone = input.nextLine();
 
         Student student = new Student(
@@ -41,7 +41,7 @@ public class ExternalInput {
                 phone
         );
 
+        System.out.println();
         student.display();
-        input.close();
     }
 }
