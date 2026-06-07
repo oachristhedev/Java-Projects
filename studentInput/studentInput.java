@@ -1,16 +1,17 @@
+package studentInput;
 
-public class Student {
+public class studentInput {
 
     public static void main(String[] args) {
 
         String surName = "Odoom";
-        
+
         String firstnames = "Christopher Abuenyi";
 
         String studentID = "04/2024/2197D";
 
         String courseName = "Computer Network Management";
-        
+
         char className = 'C';
 
         int level = 200;
